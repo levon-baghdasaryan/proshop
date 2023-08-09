@@ -1,2 +1,2 @@
-# proshop
+# Proshop
 E-commerce website
