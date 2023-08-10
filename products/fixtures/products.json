@@ -1,0 +1,98 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "name": "Airpods Wireless Bluetooth Headphones",
+        "brand": "Apple",
+        "category": "Electronics",
+        "description": "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
+        "rating": "4.50",
+        "num_reviews": 12,
+        "price": "89.99",
+        "in_stock": 10,
+        "created_at": "2023-08-10T23:07:05.358Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "name": "iPhone 11 Pro 256GB Memory",
+        "brand": "Apple",
+        "category": "Electronics",
+        "description": "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+        "rating": "4.00",
+        "num_reviews": 8,
+        "price": "599.99",
+        "in_stock": 0,
+        "created_at": "2023-08-10T23:07:05.362Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "name": "Cannon EOS 80D DSLR Camera",
+        "brand": "Cannon",
+        "category": "Electronics",
+        "description": "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+        "rating": "3.00",
+        "num_reviews": 12,
+        "price": "929.99",
+        "in_stock": 5,
+        "created_at": "2023-08-10T23:07:05.364Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "name": "Sony Playstation 4 Pro White Version",
+        "brand": "Sony",
+        "category": "Electronics",
+        "description": "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
+        "rating": "5.00",
+        "num_reviews": 12,
+        "price": "399.99",
+        "in_stock": 11,
+        "created_at": "2023-08-10T23:07:05.367Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "name": "Logitech G-Series Gaming Mouse",
+        "brand": "Logitech",
+        "category": "Electronics",
+        "description": "Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience",
+        "rating": "3.50",
+        "num_reviews": 10,
+        "price": "49.99",
+        "in_stock": 7,
+        "created_at": "2023-08-10T23:07:05.369Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "name": "Amazon Echo Dot 3rd Generation",
+        "brand": "Amazon",
+        "category": "Electronics",
+        "description": "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
+        "rating": "4.00",
+        "num_reviews": 12,
+        "price": "29.99",
+        "in_stock": 0,
+        "created_at": "2023-08-10T23:07:05.371Z"
+    }
+}
+]
