@@ -18,14 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from rest_framework_simplejwt.views import TokenObtainPairView
-
-from . import views
 
 urlpatterns = [
-    path('api/users/', include('users.urls')),
-    path('api/', views.get_routes, name='routes'),
-    path('api/products/', include('products.urls')),
+    path('api/', include('users.urls.auth_urls')),
+    path('api/users/', include('users.urls.user_urls')),
+    path('api/products/', include('products.urls.product_urls')),
+    path('api/orders/', include('products.urls.order_urls')),
     path('admin/', admin.site.urls),
 ]
 
